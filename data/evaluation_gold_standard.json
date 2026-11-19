@@ -1,0 +1,82 @@
+{
+  "test_documents": [
+    {
+      "doc_id": "apex_sample",
+      "filename": "apex_technologies_annual_report_fy25.pdf",
+      "entity": "Apex Global Technologies Ltd",
+      "period": "FY 2024-25",
+      "currency": "INR",
+      "scale": "crores",
+      "expected_facts": {
+        "revenue": 14920.0,
+        "cost_of_goods_sold": 8200.0,
+        "gross_profit": 6300.0,
+        "operating_expenses": 2600.0,
+        "ebit": 3700.0,
+        "finance_costs": 240.0,
+        "net_profit": 2420.0,
+        "current_assets": 8900.0,
+        "cash_and_equivalents": 2150.0,
+        "accounts_receivable": 3450.0,
+        "inventory": 1200.0,
+        "total_assets": 20500.0,
+        "current_liabilities": 4800.0,
+        "total_debt": 3300.0,
+        "total_liabilities": 8500.0,
+        "total_equity": 12000.0,
+        "operating_cash_flow": 2850.0
+      },
+      "expected_ratios": {
+        "Current Ratio": 1.85,
+        "Quick Ratio (Acid Test)": 1.60,
+        "Debt-to-Equity Ratio": 0.28,
+        "Gross Profit Margin": 43.45,
+        "Operating Margin (EBIT)": 25.52,
+        "Net Profit Margin": 16.69,
+        "Return on Equity (ROE)": 20.17,
+        "Return on Assets (ROA)": 11.80,
+        "Cash Flow to Net Income": 1.18
+      },
+      "expected_reconciliations": {
+        "balance_sheet_balanced": true,
+        "gross_profit_balanced": true
+      }
+    },
+    {
+      "doc_id": "bluehorizon_sample",
+      "filename": "bluehorizon_maritime_credit_report_fy25.pdf",
+      "entity": "BlueHorizon Maritime Logistics Corp",
+      "period": "FY 2024-25",
+      "currency": "USD",
+      "scale": "millions",
+      "expected_facts": {
+        "revenue": 850.0,
+        "cost_of_goods_sold": 690.0,
+        "gross_profit": 160.0,
+        "ebit": 65.0,
+        "finance_costs": 48.0,
+        "net_profit": 12.0,
+        "current_assets": 210.0,
+        "total_assets": 1250.0,
+        "current_liabilities": 260.0,
+        "total_debt": 680.0,
+        "total_equity": 380.0,
+        "operating_cash_flow": 4.5
+      },
+      "expected_ratios": {
+        "Current Ratio": 0.81,
+        "Debt-to-Equity Ratio": 1.79,
+        "Gross Profit Margin": 18.82,
+        "Operating Margin (EBIT)": 7.65,
+        "Net Profit Margin": 1.41,
+        "Return on Equity (ROE)": 3.16,
+        "Return on Assets (ROA)": 0.96,
+        "Cash Flow to Net Income": 0.38
+      },
+      "expected_risks": [
+        "Severe Liquidity Strain (Current Ratio < 1.0x)",
+        "Weak Cash Conversion / Earnings Quality Alert"
+      ]
+    }
+  ]
+}

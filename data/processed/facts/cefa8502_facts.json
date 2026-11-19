@@ -1,0 +1,3117 @@
+{
+  "doc_id": "cefa8502",
+  "entity": "Apex Global Technologies Ltd",
+  "period": "FY 2024-25",
+  "prior_period": "FY 2023-24",
+  "available_periods": [
+    "FY 2023-24",
+    "FY 2024-25"
+  ],
+  "total_tables": 3,
+  "total_facts": 64,
+  "tables": [
+    {
+      "table_id": "tbl_p2_1",
+      "table_index": 1,
+      "page_no": 2,
+      "statement_type": "Income Statement",
+      "headers": [
+        "Particulars",
+        "FY 2024-25",
+        "FY 2023-24"
+      ],
+      "rows": [
+        [
+          "Revenue from operations",
+          "14,500.00",
+          "12,200.00"
+        ],
+        [
+          "Other income",
+          "420.00",
+          "350.00"
+        ],
+        [
+          "Total Revenue",
+          "14,920.00",
+          "12,550.00"
+        ],
+        [
+          "Cost of goods sold",
+          "8,200.00",
+          "7,100.00"
+        ],
+        [
+          "Gross Profit",
+          "6,300.00",
+          "5,100.00"
+        ],
+        [
+          "Operating Expenses",
+          "2,600.00",
+          "2,200.00"
+        ],
+        [
+          "Operating Profit (EBIT)",
+          "3,700.00",
+          "2,900.00"
+        ],
+        [
+          "Finance costs",
+          "240.00",
+          "210.00"
+        ],
+        [
+          "Depreciation and amortisation",
+          "680.00",
+          "580.00"
+        ],
+        [
+          "Profit before tax",
+          "3,200.00",
+          "2,460.00"
+        ],
+        [
+          "Tax expense",
+          "780.00",
+          "600.00"
+        ],
+        [
+          "Net Profit for the year",
+          "2,420.00",
+          "1,860.00"
+        ]
+      ],
+      "num_rows": 12,
+      "num_cols": 3,
+      "raw_text_summary": "Income Statement on Page 2 with 12 line items"
+    },
+    {
+      "table_id": "tbl_p3_1",
+      "table_index": 2,
+      "page_no": 3,
+      "statement_type": "Balance Sheet",
+      "headers": [
+        "Particulars",
+        "FY 2024-25",
+        "FY 2023-24"
+      ],
+      "rows": [
+        [
+          "Total Current Assets",
+          "8,900.00",
+          "7,400.00"
+        ],
+        [
+          "Cash and cash equivalents",
+          "2,150.00",
+          "1,820.00"
+        ],
+        [
+          "Trade receivables",
+          "3,450.00",
+          "2,880.00"
+        ],
+        [
+          "Inventories",
+          "1,200.00",
+          "980.00"
+        ],
+        [
+          "Non-Current Assets",
+          "11,600.00",
+          "10,200.00"
+        ],
+        [
+          "Total Assets",
+          "20,500.00",
+          "17,600.00"
+        ],
+        [
+          "Total Current Liabilities",
+          "4,800.00",
+          "4,100.00"
+        ],
+        [
+          "Short-term borrowings",
+          "1,100.00",
+          "950.00"
+        ],
+        [
+          "Trade payables",
+          "2,400.00",
+          "2,150.00"
+        ],
+        [
+          "Long-term borrowings",
+          "2,200.00",
+          "1,900.00"
+        ],
+        [
+          "Total Borrowings (Debt)",
+          "3,300.00",
+          "2,850.00"
+        ],
+        [
+          "Total Liabilities",
+          "8,500.00",
+          "7,300.00"
+        ],
+        [
+          "Shareholders' Equity",
+          "12,000.00",
+          "10,300.00"
+        ],
+        [
+          "Total Liabilities & Equity",
+          "20,500.00",
+          "17,600.00"
+        ]
+      ],
+      "num_rows": 14,
+      "num_cols": 3,
+      "raw_text_summary": "Balance Sheet on Page 3 with 14 line items"
+    },
+    {
+      "table_id": "tbl_p4_1",
+      "table_index": 3,
+      "page_no": 4,
+      "statement_type": "Cash Flow Statement",
+      "headers": [
+        "Particulars",
+        "FY 2024-25",
+        "FY 2023-24"
+      ],
+      "rows": [
+        [
+          "Operating cash flow (CFO)",
+          "2,850.00",
+          "2,310.00"
+        ],
+        [
+          "Net cash used in investing activities",
+          "-1,420.00",
+          "-1,150.00"
+        ],
+        [
+          "Purchase of property, plant and equipment",
+          "-1,100.00",
+          "-890.00"
+        ],
+        [
+          "Net cash used in financing activities",
+          "-1,100.00",
+          "-920.00"
+        ],
+        [
+          "Net change in cash",
+          "330.00",
+          "240.00"
+        ],
+        [
+          "Closing Cash and Cash Equivalents",
+          "2,150.00",
+          "1,820.00"
+        ]
+      ],
+      "num_rows": 6,
+      "num_cols": 3,
+      "raw_text_summary": "Cash Flow Statement on Page 4 with 6 line items"
+    }
+  ],
+  "extracted_facts": [
+    {
+      "fact_id": "fact_tbl_p2_1_r0_c1",
+      "metric_code": "revenue",
+      "raw_label": "Revenue from operations",
+      "canonical_metric": "revenue",
+      "raw_value_text": "14,500.00",
+      "normalized_value": 14500.0,
+      "base_unit_value": 145000000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2024-25",
+      "statement_type": "income_statement",
+      "source_locator": {
+        "page_no": 2,
+        "table_id": "tbl_p2_1",
+        "row_index": 1,
+        "col_index": 2,
+        "row_label": "Revenue from operations",
+        "column_header": "FY 2024-25"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p2_1_r0_c2",
+      "metric_code": "revenue",
+      "raw_label": "Revenue from operations",
+      "canonical_metric": "revenue",
+      "raw_value_text": "12,200.00",
+      "normalized_value": 12200.0,
+      "base_unit_value": 122000000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2023-24",
+      "statement_type": "income_statement",
+      "source_locator": {
+        "page_no": 2,
+        "table_id": "tbl_p2_1",
+        "row_index": 1,
+        "col_index": 3,
+        "row_label": "Revenue from operations",
+        "column_header": "FY 2023-24"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p2_1_r1_c1",
+      "metric_code": "custom_other_income",
+      "raw_label": "Other income",
+      "canonical_metric": null,
+      "raw_value_text": "420.00",
+      "normalized_value": 420.0,
+      "base_unit_value": 4200000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2024-25",
+      "statement_type": "Income Statement",
+      "source_locator": {
+        "page_no": 2,
+        "table_id": "tbl_p2_1",
+        "row_index": 2,
+        "col_index": 2,
+        "row_label": "Other income",
+        "column_header": "FY 2024-25"
+      },
+      "extraction_confidence": 0.5,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p2_1_r1_c2",
+      "metric_code": "custom_other_income",
+      "raw_label": "Other income",
+      "canonical_metric": null,
+      "raw_value_text": "350.00",
+      "normalized_value": 350.0,
+      "base_unit_value": 3500000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2023-24",
+      "statement_type": "Income Statement",
+      "source_locator": {
+        "page_no": 2,
+        "table_id": "tbl_p2_1",
+        "row_index": 2,
+        "col_index": 3,
+        "row_label": "Other income",
+        "column_header": "FY 2023-24"
+      },
+      "extraction_confidence": 0.5,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p2_1_r2_c1",
+      "metric_code": "revenue",
+      "raw_label": "Total Revenue",
+      "canonical_metric": "revenue",
+      "raw_value_text": "14,920.00",
+      "normalized_value": 14920.0,
+      "base_unit_value": 149200000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2024-25",
+      "statement_type": "income_statement",
+      "source_locator": {
+        "page_no": 2,
+        "table_id": "tbl_p2_1",
+        "row_index": 3,
+        "col_index": 2,
+        "row_label": "Total Revenue",
+        "column_header": "FY 2024-25"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p2_1_r2_c2",
+      "metric_code": "revenue",
+      "raw_label": "Total Revenue",
+      "canonical_metric": "revenue",
+      "raw_value_text": "12,550.00",
+      "normalized_value": 12550.0,
+      "base_unit_value": 125500000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2023-24",
+      "statement_type": "income_statement",
+      "source_locator": {
+        "page_no": 2,
+        "table_id": "tbl_p2_1",
+        "row_index": 3,
+        "col_index": 3,
+        "row_label": "Total Revenue",
+        "column_header": "FY 2023-24"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p2_1_r3_c1",
+      "metric_code": "cost_of_goods_sold",
+      "raw_label": "Cost of goods sold",
+      "canonical_metric": "cost_of_goods_sold",
+      "raw_value_text": "8,200.00",
+      "normalized_value": 8200.0,
+      "base_unit_value": 82000000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2024-25",
+      "statement_type": "income_statement",
+      "source_locator": {
+        "page_no": 2,
+        "table_id": "tbl_p2_1",
+        "row_index": 4,
+        "col_index": 2,
+        "row_label": "Cost of goods sold",
+        "column_header": "FY 2024-25"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p2_1_r3_c2",
+      "metric_code": "cost_of_goods_sold",
+      "raw_label": "Cost of goods sold",
+      "canonical_metric": "cost_of_goods_sold",
+      "raw_value_text": "7,100.00",
+      "normalized_value": 7100.0,
+      "base_unit_value": 71000000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2023-24",
+      "statement_type": "income_statement",
+      "source_locator": {
+        "page_no": 2,
+        "table_id": "tbl_p2_1",
+        "row_index": 4,
+        "col_index": 3,
+        "row_label": "Cost of goods sold",
+        "column_header": "FY 2023-24"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p2_1_r4_c1",
+      "metric_code": "gross_profit",
+      "raw_label": "Gross Profit",
+      "canonical_metric": "gross_profit",
+      "raw_value_text": "6,300.00",
+      "normalized_value": 6300.0,
+      "base_unit_value": 63000000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2024-25",
+      "statement_type": "income_statement",
+      "source_locator": {
+        "page_no": 2,
+        "table_id": "tbl_p2_1",
+        "row_index": 5,
+        "col_index": 2,
+        "row_label": "Gross Profit",
+        "column_header": "FY 2024-25"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p2_1_r4_c2",
+      "metric_code": "gross_profit",
+      "raw_label": "Gross Profit",
+      "canonical_metric": "gross_profit",
+      "raw_value_text": "5,100.00",
+      "normalized_value": 5100.0,
+      "base_unit_value": 51000000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2023-24",
+      "statement_type": "income_statement",
+      "source_locator": {
+        "page_no": 2,
+        "table_id": "tbl_p2_1",
+        "row_index": 5,
+        "col_index": 3,
+        "row_label": "Gross Profit",
+        "column_header": "FY 2023-24"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p2_1_r5_c1",
+      "metric_code": "operating_expenses",
+      "raw_label": "Operating Expenses",
+      "canonical_metric": "operating_expenses",
+      "raw_value_text": "2,600.00",
+      "normalized_value": 2600.0,
+      "base_unit_value": 26000000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2024-25",
+      "statement_type": "income_statement",
+      "source_locator": {
+        "page_no": 2,
+        "table_id": "tbl_p2_1",
+        "row_index": 6,
+        "col_index": 2,
+        "row_label": "Operating Expenses",
+        "column_header": "FY 2024-25"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p2_1_r5_c2",
+      "metric_code": "operating_expenses",
+      "raw_label": "Operating Expenses",
+      "canonical_metric": "operating_expenses",
+      "raw_value_text": "2,200.00",
+      "normalized_value": 2200.0,
+      "base_unit_value": 22000000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2023-24",
+      "statement_type": "income_statement",
+      "source_locator": {
+        "page_no": 2,
+        "table_id": "tbl_p2_1",
+        "row_index": 6,
+        "col_index": 3,
+        "row_label": "Operating Expenses",
+        "column_header": "FY 2023-24"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p2_1_r6_c1",
+      "metric_code": "ebit",
+      "raw_label": "Operating Profit (EBIT)",
+      "canonical_metric": "ebit",
+      "raw_value_text": "3,700.00",
+      "normalized_value": 3700.0,
+      "base_unit_value": 37000000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2024-25",
+      "statement_type": "income_statement",
+      "source_locator": {
+        "page_no": 2,
+        "table_id": "tbl_p2_1",
+        "row_index": 7,
+        "col_index": 2,
+        "row_label": "Operating Profit (EBIT)",
+        "column_header": "FY 2024-25"
+      },
+      "extraction_confidence": 0.67,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p2_1_r6_c2",
+      "metric_code": "ebit",
+      "raw_label": "Operating Profit (EBIT)",
+      "canonical_metric": "ebit",
+      "raw_value_text": "2,900.00",
+      "normalized_value": 2900.0,
+      "base_unit_value": 29000000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2023-24",
+      "statement_type": "income_statement",
+      "source_locator": {
+        "page_no": 2,
+        "table_id": "tbl_p2_1",
+        "row_index": 7,
+        "col_index": 3,
+        "row_label": "Operating Profit (EBIT)",
+        "column_header": "FY 2023-24"
+      },
+      "extraction_confidence": 0.67,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p2_1_r7_c1",
+      "metric_code": "finance_costs",
+      "raw_label": "Finance costs",
+      "canonical_metric": "finance_costs",
+      "raw_value_text": "240.00",
+      "normalized_value": 240.0,
+      "base_unit_value": 2400000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2024-25",
+      "statement_type": "income_statement",
+      "source_locator": {
+        "page_no": 2,
+        "table_id": "tbl_p2_1",
+        "row_index": 8,
+        "col_index": 2,
+        "row_label": "Finance costs",
+        "column_header": "FY 2024-25"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p2_1_r7_c2",
+      "metric_code": "finance_costs",
+      "raw_label": "Finance costs",
+      "canonical_metric": "finance_costs",
+      "raw_value_text": "210.00",
+      "normalized_value": 210.0,
+      "base_unit_value": 2100000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2023-24",
+      "statement_type": "income_statement",
+      "source_locator": {
+        "page_no": 2,
+        "table_id": "tbl_p2_1",
+        "row_index": 8,
+        "col_index": 3,
+        "row_label": "Finance costs",
+        "column_header": "FY 2023-24"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p2_1_r8_c1",
+      "metric_code": "custom_depreciation_and_amortisation",
+      "raw_label": "Depreciation and amortisation",
+      "canonical_metric": null,
+      "raw_value_text": "680.00",
+      "normalized_value": 680.0,
+      "base_unit_value": 6800000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2024-25",
+      "statement_type": "Income Statement",
+      "source_locator": {
+        "page_no": 2,
+        "table_id": "tbl_p2_1",
+        "row_index": 9,
+        "col_index": 2,
+        "row_label": "Depreciation and amortisation",
+        "column_header": "FY 2024-25"
+      },
+      "extraction_confidence": 0.5,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p2_1_r8_c2",
+      "metric_code": "custom_depreciation_and_amortisation",
+      "raw_label": "Depreciation and amortisation",
+      "canonical_metric": null,
+      "raw_value_text": "580.00",
+      "normalized_value": 580.0,
+      "base_unit_value": 5800000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2023-24",
+      "statement_type": "Income Statement",
+      "source_locator": {
+        "page_no": 2,
+        "table_id": "tbl_p2_1",
+        "row_index": 9,
+        "col_index": 3,
+        "row_label": "Depreciation and amortisation",
+        "column_header": "FY 2023-24"
+      },
+      "extraction_confidence": 0.5,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p2_1_r9_c1",
+      "metric_code": "custom_profit_before_tax",
+      "raw_label": "Profit before tax",
+      "canonical_metric": null,
+      "raw_value_text": "3,200.00",
+      "normalized_value": 3200.0,
+      "base_unit_value": 32000000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2024-25",
+      "statement_type": "Income Statement",
+      "source_locator": {
+        "page_no": 2,
+        "table_id": "tbl_p2_1",
+        "row_index": 10,
+        "col_index": 2,
+        "row_label": "Profit before tax",
+        "column_header": "FY 2024-25"
+      },
+      "extraction_confidence": 0.5,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p2_1_r9_c2",
+      "metric_code": "custom_profit_before_tax",
+      "raw_label": "Profit before tax",
+      "canonical_metric": null,
+      "raw_value_text": "2,460.00",
+      "normalized_value": 2460.0,
+      "base_unit_value": 24600000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2023-24",
+      "statement_type": "Income Statement",
+      "source_locator": {
+        "page_no": 2,
+        "table_id": "tbl_p2_1",
+        "row_index": 10,
+        "col_index": 3,
+        "row_label": "Profit before tax",
+        "column_header": "FY 2023-24"
+      },
+      "extraction_confidence": 0.5,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p2_1_r10_c1",
+      "metric_code": "tax_expense",
+      "raw_label": "Tax expense",
+      "canonical_metric": "tax_expense",
+      "raw_value_text": "780.00",
+      "normalized_value": 780.0,
+      "base_unit_value": 7800000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2024-25",
+      "statement_type": "income_statement",
+      "source_locator": {
+        "page_no": 2,
+        "table_id": "tbl_p2_1",
+        "row_index": 11,
+        "col_index": 2,
+        "row_label": "Tax expense",
+        "column_header": "FY 2024-25"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p2_1_r10_c2",
+      "metric_code": "tax_expense",
+      "raw_label": "Tax expense",
+      "canonical_metric": "tax_expense",
+      "raw_value_text": "600.00",
+      "normalized_value": 600.0,
+      "base_unit_value": 6000000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2023-24",
+      "statement_type": "income_statement",
+      "source_locator": {
+        "page_no": 2,
+        "table_id": "tbl_p2_1",
+        "row_index": 11,
+        "col_index": 3,
+        "row_label": "Tax expense",
+        "column_header": "FY 2023-24"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p2_1_r11_c1",
+      "metric_code": "net_profit",
+      "raw_label": "Net Profit for the year",
+      "canonical_metric": "net_profit",
+      "raw_value_text": "2,420.00",
+      "normalized_value": 2420.0,
+      "base_unit_value": 24200000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2024-25",
+      "statement_type": "income_statement",
+      "source_locator": {
+        "page_no": 2,
+        "table_id": "tbl_p2_1",
+        "row_index": 12,
+        "col_index": 2,
+        "row_label": "Net Profit for the year",
+        "column_header": "FY 2024-25"
+      },
+      "extraction_confidence": 0.8,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p2_1_r11_c2",
+      "metric_code": "net_profit",
+      "raw_label": "Net Profit for the year",
+      "canonical_metric": "net_profit",
+      "raw_value_text": "1,860.00",
+      "normalized_value": 1860.0,
+      "base_unit_value": 18600000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2023-24",
+      "statement_type": "income_statement",
+      "source_locator": {
+        "page_no": 2,
+        "table_id": "tbl_p2_1",
+        "row_index": 12,
+        "col_index": 3,
+        "row_label": "Net Profit for the year",
+        "column_header": "FY 2023-24"
+      },
+      "extraction_confidence": 0.8,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p3_1_r0_c1",
+      "metric_code": "current_assets",
+      "raw_label": "Total Current Assets",
+      "canonical_metric": "current_assets",
+      "raw_value_text": "8,900.00",
+      "normalized_value": 8900.0,
+      "base_unit_value": 89000000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2024-25",
+      "statement_type": "balance_sheet",
+      "source_locator": {
+        "page_no": 3,
+        "table_id": "tbl_p3_1",
+        "row_index": 1,
+        "col_index": 2,
+        "row_label": "Total Current Assets",
+        "column_header": "FY 2024-25"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p3_1_r0_c2",
+      "metric_code": "current_assets",
+      "raw_label": "Total Current Assets",
+      "canonical_metric": "current_assets",
+      "raw_value_text": "7,400.00",
+      "normalized_value": 7400.0,
+      "base_unit_value": 74000000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2023-24",
+      "statement_type": "balance_sheet",
+      "source_locator": {
+        "page_no": 3,
+        "table_id": "tbl_p3_1",
+        "row_index": 1,
+        "col_index": 3,
+        "row_label": "Total Current Assets",
+        "column_header": "FY 2023-24"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p3_1_r1_c1",
+      "metric_code": "cash_and_equivalents",
+      "raw_label": "Cash and cash equivalents",
+      "canonical_metric": "cash_and_equivalents",
+      "raw_value_text": "2,150.00",
+      "normalized_value": 2150.0,
+      "base_unit_value": 21500000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2024-25",
+      "statement_type": "balance_sheet",
+      "source_locator": {
+        "page_no": 3,
+        "table_id": "tbl_p3_1",
+        "row_index": 2,
+        "col_index": 2,
+        "row_label": "Cash and cash equivalents",
+        "column_header": "FY 2024-25"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p3_1_r1_c2",
+      "metric_code": "cash_and_equivalents",
+      "raw_label": "Cash and cash equivalents",
+      "canonical_metric": "cash_and_equivalents",
+      "raw_value_text": "1,820.00",
+      "normalized_value": 1820.0,
+      "base_unit_value": 18200000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2023-24",
+      "statement_type": "balance_sheet",
+      "source_locator": {
+        "page_no": 3,
+        "table_id": "tbl_p3_1",
+        "row_index": 2,
+        "col_index": 3,
+        "row_label": "Cash and cash equivalents",
+        "column_header": "FY 2023-24"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p3_1_r2_c1",
+      "metric_code": "accounts_receivable",
+      "raw_label": "Trade receivables",
+      "canonical_metric": "accounts_receivable",
+      "raw_value_text": "3,450.00",
+      "normalized_value": 3450.0,
+      "base_unit_value": 34500000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2024-25",
+      "statement_type": "balance_sheet",
+      "source_locator": {
+        "page_no": 3,
+        "table_id": "tbl_p3_1",
+        "row_index": 3,
+        "col_index": 2,
+        "row_label": "Trade receivables",
+        "column_header": "FY 2024-25"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p3_1_r2_c2",
+      "metric_code": "accounts_receivable",
+      "raw_label": "Trade receivables",
+      "canonical_metric": "accounts_receivable",
+      "raw_value_text": "2,880.00",
+      "normalized_value": 2880.0,
+      "base_unit_value": 28800000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2023-24",
+      "statement_type": "balance_sheet",
+      "source_locator": {
+        "page_no": 3,
+        "table_id": "tbl_p3_1",
+        "row_index": 3,
+        "col_index": 3,
+        "row_label": "Trade receivables",
+        "column_header": "FY 2023-24"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p3_1_r3_c1",
+      "metric_code": "inventory",
+      "raw_label": "Inventories",
+      "canonical_metric": "inventory",
+      "raw_value_text": "1,200.00",
+      "normalized_value": 1200.0,
+      "base_unit_value": 12000000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2024-25",
+      "statement_type": "balance_sheet",
+      "source_locator": {
+        "page_no": 3,
+        "table_id": "tbl_p3_1",
+        "row_index": 4,
+        "col_index": 2,
+        "row_label": "Inventories",
+        "column_header": "FY 2024-25"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p3_1_r3_c2",
+      "metric_code": "inventory",
+      "raw_label": "Inventories",
+      "canonical_metric": "inventory",
+      "raw_value_text": "980.00",
+      "normalized_value": 980.0,
+      "base_unit_value": 9800000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2023-24",
+      "statement_type": "balance_sheet",
+      "source_locator": {
+        "page_no": 3,
+        "table_id": "tbl_p3_1",
+        "row_index": 4,
+        "col_index": 3,
+        "row_label": "Inventories",
+        "column_header": "FY 2023-24"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p3_1_r4_c1",
+      "metric_code": "custom_noncurrent_assets",
+      "raw_label": "Non-Current Assets",
+      "canonical_metric": null,
+      "raw_value_text": "11,600.00",
+      "normalized_value": 11600.0,
+      "base_unit_value": 116000000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2024-25",
+      "statement_type": "Balance Sheet",
+      "source_locator": {
+        "page_no": 3,
+        "table_id": "tbl_p3_1",
+        "row_index": 5,
+        "col_index": 2,
+        "row_label": "Non-Current Assets",
+        "column_header": "FY 2024-25"
+      },
+      "extraction_confidence": 0.5,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p3_1_r4_c2",
+      "metric_code": "custom_noncurrent_assets",
+      "raw_label": "Non-Current Assets",
+      "canonical_metric": null,
+      "raw_value_text": "10,200.00",
+      "normalized_value": 10200.0,
+      "base_unit_value": 102000000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2023-24",
+      "statement_type": "Balance Sheet",
+      "source_locator": {
+        "page_no": 3,
+        "table_id": "tbl_p3_1",
+        "row_index": 5,
+        "col_index": 3,
+        "row_label": "Non-Current Assets",
+        "column_header": "FY 2023-24"
+      },
+      "extraction_confidence": 0.5,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p3_1_r5_c1",
+      "metric_code": "total_assets",
+      "raw_label": "Total Assets",
+      "canonical_metric": "total_assets",
+      "raw_value_text": "20,500.00",
+      "normalized_value": 20500.0,
+      "base_unit_value": 205000000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2024-25",
+      "statement_type": "balance_sheet",
+      "source_locator": {
+        "page_no": 3,
+        "table_id": "tbl_p3_1",
+        "row_index": 6,
+        "col_index": 2,
+        "row_label": "Total Assets",
+        "column_header": "FY 2024-25"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p3_1_r5_c2",
+      "metric_code": "total_assets",
+      "raw_label": "Total Assets",
+      "canonical_metric": "total_assets",
+      "raw_value_text": "17,600.00",
+      "normalized_value": 17600.0,
+      "base_unit_value": 176000000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2023-24",
+      "statement_type": "balance_sheet",
+      "source_locator": {
+        "page_no": 3,
+        "table_id": "tbl_p3_1",
+        "row_index": 6,
+        "col_index": 3,
+        "row_label": "Total Assets",
+        "column_header": "FY 2023-24"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p3_1_r6_c1",
+      "metric_code": "current_liabilities",
+      "raw_label": "Total Current Liabilities",
+      "canonical_metric": "current_liabilities",
+      "raw_value_text": "4,800.00",
+      "normalized_value": 4800.0,
+      "base_unit_value": 48000000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2024-25",
+      "statement_type": "balance_sheet",
+      "source_locator": {
+        "page_no": 3,
+        "table_id": "tbl_p3_1",
+        "row_index": 7,
+        "col_index": 2,
+        "row_label": "Total Current Liabilities",
+        "column_header": "FY 2024-25"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p3_1_r6_c2",
+      "metric_code": "current_liabilities",
+      "raw_label": "Total Current Liabilities",
+      "canonical_metric": "current_liabilities",
+      "raw_value_text": "4,100.00",
+      "normalized_value": 4100.0,
+      "base_unit_value": 41000000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2023-24",
+      "statement_type": "balance_sheet",
+      "source_locator": {
+        "page_no": 3,
+        "table_id": "tbl_p3_1",
+        "row_index": 7,
+        "col_index": 3,
+        "row_label": "Total Current Liabilities",
+        "column_header": "FY 2023-24"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p3_1_r7_c1",
+      "metric_code": "short_term_debt",
+      "raw_label": "Short-term borrowings",
+      "canonical_metric": "short_term_debt",
+      "raw_value_text": "1,100.00",
+      "normalized_value": 1100.0,
+      "base_unit_value": 11000000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2024-25",
+      "statement_type": "balance_sheet",
+      "source_locator": {
+        "page_no": 3,
+        "table_id": "tbl_p3_1",
+        "row_index": 8,
+        "col_index": 2,
+        "row_label": "Short-term borrowings",
+        "column_header": "FY 2024-25"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p3_1_r7_c2",
+      "metric_code": "short_term_debt",
+      "raw_label": "Short-term borrowings",
+      "canonical_metric": "short_term_debt",
+      "raw_value_text": "950.00",
+      "normalized_value": 950.0,
+      "base_unit_value": 9500000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2023-24",
+      "statement_type": "balance_sheet",
+      "source_locator": {
+        "page_no": 3,
+        "table_id": "tbl_p3_1",
+        "row_index": 8,
+        "col_index": 3,
+        "row_label": "Short-term borrowings",
+        "column_header": "FY 2023-24"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p3_1_r8_c1",
+      "metric_code": "custom_trade_payables",
+      "raw_label": "Trade payables",
+      "canonical_metric": null,
+      "raw_value_text": "2,400.00",
+      "normalized_value": 2400.0,
+      "base_unit_value": 24000000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2024-25",
+      "statement_type": "Balance Sheet",
+      "source_locator": {
+        "page_no": 3,
+        "table_id": "tbl_p3_1",
+        "row_index": 9,
+        "col_index": 2,
+        "row_label": "Trade payables",
+        "column_header": "FY 2024-25"
+      },
+      "extraction_confidence": 0.5,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p3_1_r8_c2",
+      "metric_code": "custom_trade_payables",
+      "raw_label": "Trade payables",
+      "canonical_metric": null,
+      "raw_value_text": "2,150.00",
+      "normalized_value": 2150.0,
+      "base_unit_value": 21500000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2023-24",
+      "statement_type": "Balance Sheet",
+      "source_locator": {
+        "page_no": 3,
+        "table_id": "tbl_p3_1",
+        "row_index": 9,
+        "col_index": 3,
+        "row_label": "Trade payables",
+        "column_header": "FY 2023-24"
+      },
+      "extraction_confidence": 0.5,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p3_1_r9_c1",
+      "metric_code": "long_term_debt",
+      "raw_label": "Long-term borrowings",
+      "canonical_metric": "long_term_debt",
+      "raw_value_text": "2,200.00",
+      "normalized_value": 2200.0,
+      "base_unit_value": 22000000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2024-25",
+      "statement_type": "balance_sheet",
+      "source_locator": {
+        "page_no": 3,
+        "table_id": "tbl_p3_1",
+        "row_index": 10,
+        "col_index": 2,
+        "row_label": "Long-term borrowings",
+        "column_header": "FY 2024-25"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p3_1_r9_c2",
+      "metric_code": "long_term_debt",
+      "raw_label": "Long-term borrowings",
+      "canonical_metric": "long_term_debt",
+      "raw_value_text": "1,900.00",
+      "normalized_value": 1900.0,
+      "base_unit_value": 19000000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2023-24",
+      "statement_type": "balance_sheet",
+      "source_locator": {
+        "page_no": 3,
+        "table_id": "tbl_p3_1",
+        "row_index": 10,
+        "col_index": 3,
+        "row_label": "Long-term borrowings",
+        "column_header": "FY 2023-24"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p3_1_r10_c1",
+      "metric_code": "total_debt",
+      "raw_label": "Total Borrowings (Debt)",
+      "canonical_metric": "total_debt",
+      "raw_value_text": "3,300.00",
+      "normalized_value": 3300.0,
+      "base_unit_value": 33000000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2024-25",
+      "statement_type": "balance_sheet",
+      "source_locator": {
+        "page_no": 3,
+        "table_id": "tbl_p3_1",
+        "row_index": 11,
+        "col_index": 2,
+        "row_label": "Total Borrowings (Debt)",
+        "column_header": "FY 2024-25"
+      },
+      "extraction_confidence": 0.67,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p3_1_r10_c2",
+      "metric_code": "total_debt",
+      "raw_label": "Total Borrowings (Debt)",
+      "canonical_metric": "total_debt",
+      "raw_value_text": "2,850.00",
+      "normalized_value": 2850.0,
+      "base_unit_value": 28500000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2023-24",
+      "statement_type": "balance_sheet",
+      "source_locator": {
+        "page_no": 3,
+        "table_id": "tbl_p3_1",
+        "row_index": 11,
+        "col_index": 3,
+        "row_label": "Total Borrowings (Debt)",
+        "column_header": "FY 2023-24"
+      },
+      "extraction_confidence": 0.67,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p3_1_r11_c1",
+      "metric_code": "total_liabilities",
+      "raw_label": "Total Liabilities",
+      "canonical_metric": "total_liabilities",
+      "raw_value_text": "8,500.00",
+      "normalized_value": 8500.0,
+      "base_unit_value": 85000000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2024-25",
+      "statement_type": "balance_sheet",
+      "source_locator": {
+        "page_no": 3,
+        "table_id": "tbl_p3_1",
+        "row_index": 12,
+        "col_index": 2,
+        "row_label": "Total Liabilities",
+        "column_header": "FY 2024-25"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p3_1_r11_c2",
+      "metric_code": "total_liabilities",
+      "raw_label": "Total Liabilities",
+      "canonical_metric": "total_liabilities",
+      "raw_value_text": "7,300.00",
+      "normalized_value": 7300.0,
+      "base_unit_value": 73000000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2023-24",
+      "statement_type": "balance_sheet",
+      "source_locator": {
+        "page_no": 3,
+        "table_id": "tbl_p3_1",
+        "row_index": 12,
+        "col_index": 3,
+        "row_label": "Total Liabilities",
+        "column_header": "FY 2023-24"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p3_1_r12_c1",
+      "metric_code": "total_equity",
+      "raw_label": "Shareholders' Equity",
+      "canonical_metric": "total_equity",
+      "raw_value_text": "12,000.00",
+      "normalized_value": 12000.0,
+      "base_unit_value": 120000000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2024-25",
+      "statement_type": "balance_sheet",
+      "source_locator": {
+        "page_no": 3,
+        "table_id": "tbl_p3_1",
+        "row_index": 13,
+        "col_index": 2,
+        "row_label": "Shareholders' Equity",
+        "column_header": "FY 2024-25"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p3_1_r12_c2",
+      "metric_code": "total_equity",
+      "raw_label": "Shareholders' Equity",
+      "canonical_metric": "total_equity",
+      "raw_value_text": "10,300.00",
+      "normalized_value": 10300.0,
+      "base_unit_value": 103000000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2023-24",
+      "statement_type": "balance_sheet",
+      "source_locator": {
+        "page_no": 3,
+        "table_id": "tbl_p3_1",
+        "row_index": 13,
+        "col_index": 3,
+        "row_label": "Shareholders' Equity",
+        "column_header": "FY 2023-24"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p3_1_r13_c1",
+      "metric_code": "total_liabilities_and_equity",
+      "raw_label": "Total Liabilities & Equity",
+      "canonical_metric": "total_liabilities_and_equity",
+      "raw_value_text": "20,500.00",
+      "normalized_value": 20500.0,
+      "base_unit_value": 205000000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2024-25",
+      "statement_type": "balance_sheet",
+      "source_locator": {
+        "page_no": 3,
+        "table_id": "tbl_p3_1",
+        "row_index": 14,
+        "col_index": 2,
+        "row_label": "Total Liabilities & Equity",
+        "column_header": "FY 2024-25"
+      },
+      "extraction_confidence": 0.95,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p3_1_r13_c2",
+      "metric_code": "total_liabilities_and_equity",
+      "raw_label": "Total Liabilities & Equity",
+      "canonical_metric": "total_liabilities_and_equity",
+      "raw_value_text": "17,600.00",
+      "normalized_value": 17600.0,
+      "base_unit_value": 176000000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2023-24",
+      "statement_type": "balance_sheet",
+      "source_locator": {
+        "page_no": 3,
+        "table_id": "tbl_p3_1",
+        "row_index": 14,
+        "col_index": 3,
+        "row_label": "Total Liabilities & Equity",
+        "column_header": "FY 2023-24"
+      },
+      "extraction_confidence": 0.95,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p4_1_r0_c1",
+      "metric_code": "operating_cash_flow",
+      "raw_label": "Operating cash flow (CFO)",
+      "canonical_metric": "operating_cash_flow",
+      "raw_value_text": "2,850.00",
+      "normalized_value": 2850.0,
+      "base_unit_value": 28500000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2024-25",
+      "statement_type": "cash_flow",
+      "source_locator": {
+        "page_no": 4,
+        "table_id": "tbl_p4_1",
+        "row_index": 1,
+        "col_index": 2,
+        "row_label": "Operating cash flow (CFO)",
+        "column_header": "FY 2024-25"
+      },
+      "extraction_confidence": 0.75,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p4_1_r0_c2",
+      "metric_code": "operating_cash_flow",
+      "raw_label": "Operating cash flow (CFO)",
+      "canonical_metric": "operating_cash_flow",
+      "raw_value_text": "2,310.00",
+      "normalized_value": 2310.0,
+      "base_unit_value": 23100000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2023-24",
+      "statement_type": "cash_flow",
+      "source_locator": {
+        "page_no": 4,
+        "table_id": "tbl_p4_1",
+        "row_index": 1,
+        "col_index": 3,
+        "row_label": "Operating cash flow (CFO)",
+        "column_header": "FY 2023-24"
+      },
+      "extraction_confidence": 0.75,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p4_1_r1_c1",
+      "metric_code": "investing_cash_flow",
+      "raw_label": "Net cash used in investing activities",
+      "canonical_metric": "investing_cash_flow",
+      "raw_value_text": "-1,420.00",
+      "normalized_value": -1420.0,
+      "base_unit_value": -14200000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2024-25",
+      "statement_type": "cash_flow",
+      "source_locator": {
+        "page_no": 4,
+        "table_id": "tbl_p4_1",
+        "row_index": 2,
+        "col_index": 2,
+        "row_label": "Net cash used in investing activities",
+        "column_header": "FY 2024-25"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p4_1_r1_c2",
+      "metric_code": "investing_cash_flow",
+      "raw_label": "Net cash used in investing activities",
+      "canonical_metric": "investing_cash_flow",
+      "raw_value_text": "-1,150.00",
+      "normalized_value": -1150.0,
+      "base_unit_value": -11500000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2023-24",
+      "statement_type": "cash_flow",
+      "source_locator": {
+        "page_no": 4,
+        "table_id": "tbl_p4_1",
+        "row_index": 2,
+        "col_index": 3,
+        "row_label": "Net cash used in investing activities",
+        "column_header": "FY 2023-24"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p4_1_r2_c1",
+      "metric_code": "capital_expenditures",
+      "raw_label": "Purchase of property, plant and equipment",
+      "canonical_metric": "capital_expenditures",
+      "raw_value_text": "-1,100.00",
+      "normalized_value": -1100.0,
+      "base_unit_value": -11000000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2024-25",
+      "statement_type": "cash_flow",
+      "source_locator": {
+        "page_no": 4,
+        "table_id": "tbl_p4_1",
+        "row_index": 3,
+        "col_index": 2,
+        "row_label": "Purchase of property, plant and equipment",
+        "column_header": "FY 2024-25"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p4_1_r2_c2",
+      "metric_code": "capital_expenditures",
+      "raw_label": "Purchase of property, plant and equipment",
+      "canonical_metric": "capital_expenditures",
+      "raw_value_text": "-890.00",
+      "normalized_value": -890.0,
+      "base_unit_value": -8900000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2023-24",
+      "statement_type": "cash_flow",
+      "source_locator": {
+        "page_no": 4,
+        "table_id": "tbl_p4_1",
+        "row_index": 3,
+        "col_index": 3,
+        "row_label": "Purchase of property, plant and equipment",
+        "column_header": "FY 2023-24"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p4_1_r3_c1",
+      "metric_code": "financing_cash_flow",
+      "raw_label": "Net cash used in financing activities",
+      "canonical_metric": "financing_cash_flow",
+      "raw_value_text": "-1,100.00",
+      "normalized_value": -1100.0,
+      "base_unit_value": -11000000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2024-25",
+      "statement_type": "cash_flow",
+      "source_locator": {
+        "page_no": 4,
+        "table_id": "tbl_p4_1",
+        "row_index": 4,
+        "col_index": 2,
+        "row_label": "Net cash used in financing activities",
+        "column_header": "FY 2024-25"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p4_1_r3_c2",
+      "metric_code": "financing_cash_flow",
+      "raw_label": "Net cash used in financing activities",
+      "canonical_metric": "financing_cash_flow",
+      "raw_value_text": "-920.00",
+      "normalized_value": -920.0,
+      "base_unit_value": -9200000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2023-24",
+      "statement_type": "cash_flow",
+      "source_locator": {
+        "page_no": 4,
+        "table_id": "tbl_p4_1",
+        "row_index": 4,
+        "col_index": 3,
+        "row_label": "Net cash used in financing activities",
+        "column_header": "FY 2023-24"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p4_1_r4_c1",
+      "metric_code": "net_change_in_cash",
+      "raw_label": "Net change in cash",
+      "canonical_metric": "net_change_in_cash",
+      "raw_value_text": "330.00",
+      "normalized_value": 330.0,
+      "base_unit_value": 3300000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2024-25",
+      "statement_type": "cash_flow",
+      "source_locator": {
+        "page_no": 4,
+        "table_id": "tbl_p4_1",
+        "row_index": 5,
+        "col_index": 2,
+        "row_label": "Net change in cash",
+        "column_header": "FY 2024-25"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p4_1_r4_c2",
+      "metric_code": "net_change_in_cash",
+      "raw_label": "Net change in cash",
+      "canonical_metric": "net_change_in_cash",
+      "raw_value_text": "240.00",
+      "normalized_value": 240.0,
+      "base_unit_value": 2400000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2023-24",
+      "statement_type": "cash_flow",
+      "source_locator": {
+        "page_no": 4,
+        "table_id": "tbl_p4_1",
+        "row_index": 5,
+        "col_index": 3,
+        "row_label": "Net change in cash",
+        "column_header": "FY 2023-24"
+      },
+      "extraction_confidence": 1.0,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p4_1_r5_c1",
+      "metric_code": "cash_and_equivalents",
+      "raw_label": "Closing Cash and Cash Equivalents",
+      "canonical_metric": "cash_and_equivalents",
+      "raw_value_text": "2,150.00",
+      "normalized_value": 2150.0,
+      "base_unit_value": 21500000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2024-25",
+      "statement_type": "balance_sheet",
+      "source_locator": {
+        "page_no": 4,
+        "table_id": "tbl_p4_1",
+        "row_index": 6,
+        "col_index": 2,
+        "row_label": "Closing Cash and Cash Equivalents",
+        "column_header": "FY 2024-25"
+      },
+      "extraction_confidence": 0.75,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    },
+    {
+      "fact_id": "fact_tbl_p4_1_r5_c2",
+      "metric_code": "cash_and_equivalents",
+      "raw_label": "Closing Cash and Cash Equivalents",
+      "canonical_metric": "cash_and_equivalents",
+      "raw_value_text": "1,820.00",
+      "normalized_value": 1820.0,
+      "base_unit_value": 18200000000.0,
+      "currency": "INR",
+      "scale": "crores",
+      "period": "FY 2023-24",
+      "statement_type": "balance_sheet",
+      "source_locator": {
+        "page_no": 4,
+        "table_id": "tbl_p4_1",
+        "row_index": 6,
+        "col_index": 3,
+        "row_label": "Closing Cash and Cash Equivalents",
+        "column_header": "FY 2023-24"
+      },
+      "extraction_confidence": 0.75,
+      "review_status": "auto_extracted",
+      "audit_history": []
+    }
+  ],
+  "reconciliation": {
+    "checks_run": 4,
+    "results": [
+      {
+        "check_name": "Balance Sheet Balance Check (Assets = Liabilities + Equity)",
+        "period": "FY 2024-25",
+        "lhs_metric": "total_assets",
+        "lhs_value": 20500.0,
+        "rhs_metric": "total_liabilities + total_equity",
+        "rhs_value": 20500.0,
+        "difference": 0.0,
+        "passed": true,
+        "status": "Balanced",
+        "notes": "Verified within rounding tolerance."
+      },
+      {
+        "check_name": "Gross Profit Check (Gross Profit = Revenue - COGS)",
+        "period": "FY 2024-25",
+        "lhs_metric": "gross_profit",
+        "lhs_value": 6300.0,
+        "rhs_metric": "revenue - cogs",
+        "rhs_value": 6300.0,
+        "difference": 0.0,
+        "passed": true,
+        "status": "Balanced",
+        "notes": "Gross profit ties back to revenue minus COGS."
+      },
+      {
+        "check_name": "Balance Sheet Balance Check (Assets = Liabilities + Equity)",
+        "period": "FY 2023-24",
+        "lhs_metric": "total_assets",
+        "lhs_value": 17600.0,
+        "rhs_metric": "total_liabilities + total_equity",
+        "rhs_value": 17600.0,
+        "difference": 0.0,
+        "passed": true,
+        "status": "Balanced",
+        "notes": "Verified within rounding tolerance."
+      },
+      {
+        "check_name": "Gross Profit Check (Gross Profit = Revenue - COGS)",
+        "period": "FY 2023-24",
+        "lhs_metric": "gross_profit",
+        "lhs_value": 5100.0,
+        "rhs_metric": "revenue - cogs",
+        "rhs_value": 5100.0,
+        "difference": 0.0,
+        "passed": true,
+        "status": "Balanced",
+        "notes": "Gross profit ties back to revenue minus COGS."
+      }
+    ],
+    "all_passed": true
+  },
+  "ratios": {
+    "period": "FY 2024-25",
+    "ratios": [
+      {
+        "metric_name": "Current Ratio",
+        "category": "Liquidity",
+        "formula": "Current Assets ÷ Current Liabilities",
+        "value": 1.85,
+        "unit": "x",
+        "status": "calculated",
+        "benchmark": "≥ 1.33x desirable",
+        "health_status": "Healthy",
+        "inputs": {
+          "current_assets": 8900.0,
+          "current_liabilities": 4800.0
+        },
+        "citations": [
+          {
+            "metric_code": "current_assets",
+            "raw_label": "Total Current Assets",
+            "raw_value": "8,900.00",
+            "normalized_value": 8900.0,
+            "page_no": 3,
+            "table_id": "tbl_p3_1",
+            "row_index": 1
+          },
+          {
+            "metric_code": "current_liabilities",
+            "raw_label": "Total Current Liabilities",
+            "raw_value": "4,800.00",
+            "normalized_value": 4800.0,
+            "page_no": 3,
+            "table_id": "tbl_p3_1",
+            "row_index": 7
+          }
+        ],
+        "interpretation": "The company holds 1.85x of current assets for every unit of short-term liability."
+      },
+      {
+        "metric_name": "Quick Ratio (Acid Test)",
+        "category": "Liquidity",
+        "formula": "(Current Assets − Inventory) ÷ Current Liabilities",
+        "value": 1.6,
+        "unit": "x",
+        "status": "calculated",
+        "benchmark": "≥ 1.0x desirable",
+        "health_status": "Healthy",
+        "inputs": {
+          "current_assets": 8900.0,
+          "inventory": 1200.0,
+          "current_liabilities": 4800.0
+        },
+        "citations": [
+          {
+            "metric_code": "current_assets",
+            "raw_label": "Total Current Assets",
+            "raw_value": "8,900.00",
+            "normalized_value": 8900.0,
+            "page_no": 3,
+            "table_id": "tbl_p3_1",
+            "row_index": 1
+          },
+          {
+            "metric_code": "current_liabilities",
+            "raw_label": "Total Current Liabilities",
+            "raw_value": "4,800.00",
+            "normalized_value": 4800.0,
+            "page_no": 3,
+            "table_id": "tbl_p3_1",
+            "row_index": 7
+          }
+        ],
+        "interpretation": "Quick ratio stands at 1.6x, testing immediate liquid obligations without relying on inventory sales."
+      },
+      {
+        "metric_name": "Debt-to-Equity Ratio",
+        "category": "Solvency & Leverage",
+        "formula": "Total Borrowings ÷ Total Equity",
+        "value": 0.28,
+        "unit": "x",
+        "status": "calculated",
+        "benchmark": "≤ 1.5x conservative",
+        "health_status": "Healthy",
+        "inputs": {
+          "total_debt": 3300.0,
+          "total_equity": 12000.0
+        },
+        "citations": [
+          {
+            "metric_code": "total_debt",
+            "raw_label": "Total Borrowings (Debt)",
+            "raw_value": "3,300.00",
+            "normalized_value": 3300.0,
+            "page_no": 3,
+            "table_id": "tbl_p3_1",
+            "row_index": 11
+          },
+          {
+            "metric_code": "total_equity",
+            "raw_label": "Shareholders' Equity",
+            "raw_value": "12,000.00",
+            "normalized_value": 12000.0,
+            "page_no": 3,
+            "table_id": "tbl_p3_1",
+            "row_index": 13
+          }
+        ],
+        "interpretation": "The company employs 0.28x debt financing relative to shareholders' equity capital."
+      },
+      {
+        "metric_name": "Gross Profit Margin",
+        "category": "Profitability",
+        "formula": "(Gross Profit ÷ Total Revenue) × 100",
+        "value": 43.45,
+        "unit": "%",
+        "status": "calculated",
+        "benchmark": "Industry dependent",
+        "health_status": "Healthy",
+        "inputs": {
+          "gross_profit": 6300.0,
+          "revenue": 14500.0
+        },
+        "citations": [
+          {
+            "metric_code": "gross_profit",
+            "raw_label": "Gross Profit",
+            "raw_value": "6,300.00",
+            "normalized_value": 6300.0,
+            "page_no": 2,
+            "table_id": "tbl_p2_1",
+            "row_index": 5
+          },
+          {
+            "metric_code": "revenue",
+            "raw_label": "Revenue from operations",
+            "raw_value": "14,500.00",
+            "normalized_value": 14500.0,
+            "page_no": 2,
+            "table_id": "tbl_p2_1",
+            "row_index": 1
+          }
+        ],
+        "interpretation": "43.45% of total revenue is retained after direct production and delivery costs."
+      },
+      {
+        "metric_name": "Operating Margin (EBIT)",
+        "category": "Profitability",
+        "formula": "(Operating Profit EBIT ÷ Total Revenue) × 100",
+        "value": 25.52,
+        "unit": "%",
+        "status": "calculated",
+        "benchmark": "≥ 12.0% strong",
+        "health_status": "Healthy",
+        "inputs": {
+          "ebit": 3700.0,
+          "revenue": 14500.0
+        },
+        "citations": [
+          {
+            "metric_code": "ebit",
+            "raw_label": "Operating Profit (EBIT)",
+            "raw_value": "3,700.00",
+            "normalized_value": 3700.0,
+            "page_no": 2,
+            "table_id": "tbl_p2_1",
+            "row_index": 7
+          },
+          {
+            "metric_code": "revenue",
+            "raw_label": "Revenue from operations",
+            "raw_value": "14,500.00",
+            "normalized_value": 14500.0,
+            "page_no": 2,
+            "table_id": "tbl_p2_1",
+            "row_index": 1
+          }
+        ],
+        "interpretation": "Operating efficiency yields 25.52% profit before interest and taxes from revenue."
+      },
+      {
+        "metric_name": "Net Profit Margin",
+        "category": "Profitability",
+        "formula": "(Net Profit ÷ Total Revenue) × 100",
+        "value": 16.69,
+        "unit": "%",
+        "status": "calculated",
+        "benchmark": "≥ 8.0% healthy",
+        "health_status": "Healthy",
+        "inputs": {
+          "net_profit": 2420.0,
+          "revenue": 14500.0
+        },
+        "citations": [
+          {
+            "metric_code": "net_profit",
+            "raw_label": "Net Profit for the year",
+            "raw_value": "2,420.00",
+            "normalized_value": 2420.0,
+            "page_no": 2,
+            "table_id": "tbl_p2_1",
+            "row_index": 12
+          },
+          {
+            "metric_code": "revenue",
+            "raw_label": "Revenue from operations",
+            "raw_value": "14,500.00",
+            "normalized_value": 14500.0,
+            "page_no": 2,
+            "table_id": "tbl_p2_1",
+            "row_index": 1
+          }
+        ],
+        "interpretation": "Bottom-line conversion of revenue to net profit is 16.69%."
+      },
+      {
+        "metric_name": "Return on Equity (ROE)",
+        "category": "Profitability & Returns",
+        "formula": "(Net Profit ÷ Shareholders' Equity) × 100",
+        "value": 20.17,
+        "unit": "%",
+        "status": "calculated",
+        "benchmark": "≥ 15.0% superior",
+        "health_status": "Healthy",
+        "inputs": {
+          "net_profit": 2420.0,
+          "total_equity": 12000.0
+        },
+        "citations": [
+          {
+            "metric_code": "net_profit",
+            "raw_label": "Net Profit for the year",
+            "raw_value": "2,420.00",
+            "normalized_value": 2420.0,
+            "page_no": 2,
+            "table_id": "tbl_p2_1",
+            "row_index": 12
+          },
+          {
+            "metric_code": "total_equity",
+            "raw_label": "Shareholders' Equity",
+            "raw_value": "12,000.00",
+            "normalized_value": 12000.0,
+            "page_no": 3,
+            "table_id": "tbl_p3_1",
+            "row_index": 13
+          }
+        ],
+        "interpretation": "Return generated on shareholders' capital is 20.17%."
+      },
+      {
+        "metric_name": "Return on Assets (ROA)",
+        "category": "Profitability & Returns",
+        "formula": "(Net Profit ÷ Total Assets) × 100",
+        "value": 11.8,
+        "unit": "%",
+        "status": "calculated",
+        "benchmark": "≥ 5.0% solid",
+        "health_status": "Healthy",
+        "inputs": {
+          "net_profit": 2420.0,
+          "total_assets": 20500.0
+        },
+        "citations": [
+          {
+            "metric_code": "net_profit",
+            "raw_label": "Net Profit for the year",
+            "raw_value": "2,420.00",
+            "normalized_value": 2420.0,
+            "page_no": 2,
+            "table_id": "tbl_p2_1",
+            "row_index": 12
+          },
+          {
+            "metric_code": "total_assets",
+            "raw_label": "Total Assets",
+            "raw_value": "20,500.00",
+            "normalized_value": 20500.0,
+            "page_no": 3,
+            "table_id": "tbl_p3_1",
+            "row_index": 6
+          }
+        ],
+        "interpretation": "The business yields 11.8% return on its total asset base."
+      },
+      {
+        "metric_name": "Cash Flow to Net Income",
+        "category": "Cash Flow & Earnings Quality",
+        "formula": "Operating Cash Flow ÷ Net Profit",
+        "value": 1.18,
+        "unit": "x",
+        "status": "calculated",
+        "benchmark": "≥ 1.0x strong cash conversion",
+        "health_status": "Healthy",
+        "inputs": {
+          "operating_cash_flow": 2850.0,
+          "net_profit": 2420.0
+        },
+        "citations": [
+          {
+            "metric_code": "operating_cash_flow",
+            "raw_label": "Operating cash flow (CFO)",
+            "raw_value": "2,850.00",
+            "normalized_value": 2850.0,
+            "page_no": 4,
+            "table_id": "tbl_p4_1",
+            "row_index": 1
+          },
+          {
+            "metric_code": "net_profit",
+            "raw_label": "Net Profit for the year",
+            "raw_value": "2,420.00",
+            "normalized_value": 2420.0,
+            "page_no": 2,
+            "table_id": "tbl_p2_1",
+            "row_index": 12
+          }
+        ],
+        "interpretation": "Operating cash conversion represents 1.18x of reported accounting net income."
+      }
+    ],
+    "total_calculated": 9,
+    "total_uncalculated": 0
+  },
+  "comparison": {
+    "current_period": "FY 2024-25",
+    "prior_period": "FY 2023-24",
+    "total_metrics_compared": 25,
+    "incompatible_warnings": [],
+    "comparisons": [
+      {
+        "metric_code": "accounts_receivable",
+        "label": "Trade receivables",
+        "statement_type": "balance_sheet",
+        "current_period": "FY 2024-25",
+        "current_value": 3450.0,
+        "prior_period": "FY 2023-24",
+        "prior_value": 2880.0,
+        "currency": "INR",
+        "scale": "crores",
+        "absolute_change": 570.0,
+        "percentage_change": 19.79,
+        "trend_direction": "Growth",
+        "is_compatible": true,
+        "warning": null,
+        "citations": {
+          "current": {
+            "page_no": 3,
+            "table_id": "tbl_p3_1",
+            "row_index": 3,
+            "col_index": 2,
+            "row_label": "Trade receivables",
+            "column_header": "FY 2024-25"
+          },
+          "prior": {
+            "page_no": 3,
+            "table_id": "tbl_p3_1",
+            "row_index": 3,
+            "col_index": 3,
+            "row_label": "Trade receivables",
+            "column_header": "FY 2023-24"
+          }
+        }
+      },
+      {
+        "metric_code": "capital_expenditures",
+        "label": "Purchase of property, plant and equipment",
+        "statement_type": "cash_flow",
+        "current_period": "FY 2024-25",
+        "current_value": -1100.0,
+        "prior_period": "FY 2023-24",
+        "prior_value": -890.0,
+        "currency": "INR",
+        "scale": "crores",
+        "absolute_change": -210.0,
+        "percentage_change": -23.6,
+        "trend_direction": "Decline",
+        "is_compatible": true,
+        "warning": null,
+        "citations": {
+          "current": {
+            "page_no": 4,
+            "table_id": "tbl_p4_1",
+            "row_index": 3,
+            "col_index": 2,
+            "row_label": "Purchase of property, plant and equipment",
+            "column_header": "FY 2024-25"
+          },
+          "prior": {
+            "page_no": 4,
+            "table_id": "tbl_p4_1",
+            "row_index": 3,
+            "col_index": 3,
+            "row_label": "Purchase of property, plant and equipment",
+            "column_header": "FY 2023-24"
+          }
+        }
+      },
+      {
+        "metric_code": "cash_and_equivalents",
+        "label": "Closing Cash and Cash Equivalents",
+        "statement_type": "balance_sheet",
+        "current_period": "FY 2024-25",
+        "current_value": 2150.0,
+        "prior_period": "FY 2023-24",
+        "prior_value": 1820.0,
+        "currency": "INR",
+        "scale": "crores",
+        "absolute_change": 330.0,
+        "percentage_change": 18.13,
+        "trend_direction": "Growth",
+        "is_compatible": true,
+        "warning": null,
+        "citations": {
+          "current": {
+            "page_no": 4,
+            "table_id": "tbl_p4_1",
+            "row_index": 6,
+            "col_index": 2,
+            "row_label": "Closing Cash and Cash Equivalents",
+            "column_header": "FY 2024-25"
+          },
+          "prior": {
+            "page_no": 4,
+            "table_id": "tbl_p4_1",
+            "row_index": 6,
+            "col_index": 3,
+            "row_label": "Closing Cash and Cash Equivalents",
+            "column_header": "FY 2023-24"
+          }
+        }
+      },
+      {
+        "metric_code": "cost_of_goods_sold",
+        "label": "Cost of goods sold",
+        "statement_type": "income_statement",
+        "current_period": "FY 2024-25",
+        "current_value": 8200.0,
+        "prior_period": "FY 2023-24",
+        "prior_value": 7100.0,
+        "currency": "INR",
+        "scale": "crores",
+        "absolute_change": 1100.0,
+        "percentage_change": 15.49,
+        "trend_direction": "Growth",
+        "is_compatible": true,
+        "warning": null,
+        "citations": {
+          "current": {
+            "page_no": 2,
+            "table_id": "tbl_p2_1",
+            "row_index": 4,
+            "col_index": 2,
+            "row_label": "Cost of goods sold",
+            "column_header": "FY 2024-25"
+          },
+          "prior": {
+            "page_no": 2,
+            "table_id": "tbl_p2_1",
+            "row_index": 4,
+            "col_index": 3,
+            "row_label": "Cost of goods sold",
+            "column_header": "FY 2023-24"
+          }
+        }
+      },
+      {
+        "metric_code": "current_assets",
+        "label": "Total Current Assets",
+        "statement_type": "balance_sheet",
+        "current_period": "FY 2024-25",
+        "current_value": 8900.0,
+        "prior_period": "FY 2023-24",
+        "prior_value": 7400.0,
+        "currency": "INR",
+        "scale": "crores",
+        "absolute_change": 1500.0,
+        "percentage_change": 20.27,
+        "trend_direction": "Growth",
+        "is_compatible": true,
+        "warning": null,
+        "citations": {
+          "current": {
+            "page_no": 3,
+            "table_id": "tbl_p3_1",
+            "row_index": 1,
+            "col_index": 2,
+            "row_label": "Total Current Assets",
+            "column_header": "FY 2024-25"
+          },
+          "prior": {
+            "page_no": 3,
+            "table_id": "tbl_p3_1",
+            "row_index": 1,
+            "col_index": 3,
+            "row_label": "Total Current Assets",
+            "column_header": "FY 2023-24"
+          }
+        }
+      },
+      {
+        "metric_code": "current_liabilities",
+        "label": "Total Current Liabilities",
+        "statement_type": "balance_sheet",
+        "current_period": "FY 2024-25",
+        "current_value": 4800.0,
+        "prior_period": "FY 2023-24",
+        "prior_value": 4100.0,
+        "currency": "INR",
+        "scale": "crores",
+        "absolute_change": 700.0,
+        "percentage_change": 17.07,
+        "trend_direction": "Growth",
+        "is_compatible": true,
+        "warning": null,
+        "citations": {
+          "current": {
+            "page_no": 3,
+            "table_id": "tbl_p3_1",
+            "row_index": 7,
+            "col_index": 2,
+            "row_label": "Total Current Liabilities",
+            "column_header": "FY 2024-25"
+          },
+          "prior": {
+            "page_no": 3,
+            "table_id": "tbl_p3_1",
+            "row_index": 7,
+            "col_index": 3,
+            "row_label": "Total Current Liabilities",
+            "column_header": "FY 2023-24"
+          }
+        }
+      },
+      {
+        "metric_code": "ebit",
+        "label": "Operating Profit (EBIT)",
+        "statement_type": "income_statement",
+        "current_period": "FY 2024-25",
+        "current_value": 3700.0,
+        "prior_period": "FY 2023-24",
+        "prior_value": 2900.0,
+        "currency": "INR",
+        "scale": "crores",
+        "absolute_change": 800.0,
+        "percentage_change": 27.59,
+        "trend_direction": "Growth",
+        "is_compatible": true,
+        "warning": null,
+        "citations": {
+          "current": {
+            "page_no": 2,
+            "table_id": "tbl_p2_1",
+            "row_index": 7,
+            "col_index": 2,
+            "row_label": "Operating Profit (EBIT)",
+            "column_header": "FY 2024-25"
+          },
+          "prior": {
+            "page_no": 2,
+            "table_id": "tbl_p2_1",
+            "row_index": 7,
+            "col_index": 3,
+            "row_label": "Operating Profit (EBIT)",
+            "column_header": "FY 2023-24"
+          }
+        }
+      },
+      {
+        "metric_code": "finance_costs",
+        "label": "Finance costs",
+        "statement_type": "income_statement",
+        "current_period": "FY 2024-25",
+        "current_value": 240.0,
+        "prior_period": "FY 2023-24",
+        "prior_value": 210.0,
+        "currency": "INR",
+        "scale": "crores",
+        "absolute_change": 30.0,
+        "percentage_change": 14.29,
+        "trend_direction": "Growth",
+        "is_compatible": true,
+        "warning": null,
+        "citations": {
+          "current": {
+            "page_no": 2,
+            "table_id": "tbl_p2_1",
+            "row_index": 8,
+            "col_index": 2,
+            "row_label": "Finance costs",
+            "column_header": "FY 2024-25"
+          },
+          "prior": {
+            "page_no": 2,
+            "table_id": "tbl_p2_1",
+            "row_index": 8,
+            "col_index": 3,
+            "row_label": "Finance costs",
+            "column_header": "FY 2023-24"
+          }
+        }
+      },
+      {
+        "metric_code": "financing_cash_flow",
+        "label": "Net cash used in financing activities",
+        "statement_type": "cash_flow",
+        "current_period": "FY 2024-25",
+        "current_value": -1100.0,
+        "prior_period": "FY 2023-24",
+        "prior_value": -920.0,
+        "currency": "INR",
+        "scale": "crores",
+        "absolute_change": -180.0,
+        "percentage_change": -19.57,
+        "trend_direction": "Decline",
+        "is_compatible": true,
+        "warning": null,
+        "citations": {
+          "current": {
+            "page_no": 4,
+            "table_id": "tbl_p4_1",
+            "row_index": 4,
+            "col_index": 2,
+            "row_label": "Net cash used in financing activities",
+            "column_header": "FY 2024-25"
+          },
+          "prior": {
+            "page_no": 4,
+            "table_id": "tbl_p4_1",
+            "row_index": 4,
+            "col_index": 3,
+            "row_label": "Net cash used in financing activities",
+            "column_header": "FY 2023-24"
+          }
+        }
+      },
+      {
+        "metric_code": "gross_profit",
+        "label": "Gross Profit",
+        "statement_type": "income_statement",
+        "current_period": "FY 2024-25",
+        "current_value": 6300.0,
+        "prior_period": "FY 2023-24",
+        "prior_value": 5100.0,
+        "currency": "INR",
+        "scale": "crores",
+        "absolute_change": 1200.0,
+        "percentage_change": 23.53,
+        "trend_direction": "Growth",
+        "is_compatible": true,
+        "warning": null,
+        "citations": {
+          "current": {
+            "page_no": 2,
+            "table_id": "tbl_p2_1",
+            "row_index": 5,
+            "col_index": 2,
+            "row_label": "Gross Profit",
+            "column_header": "FY 2024-25"
+          },
+          "prior": {
+            "page_no": 2,
+            "table_id": "tbl_p2_1",
+            "row_index": 5,
+            "col_index": 3,
+            "row_label": "Gross Profit",
+            "column_header": "FY 2023-24"
+          }
+        }
+      },
+      {
+        "metric_code": "inventory",
+        "label": "Inventories",
+        "statement_type": "balance_sheet",
+        "current_period": "FY 2024-25",
+        "current_value": 1200.0,
+        "prior_period": "FY 2023-24",
+        "prior_value": 980.0,
+        "currency": "INR",
+        "scale": "crores",
+        "absolute_change": 220.0,
+        "percentage_change": 22.45,
+        "trend_direction": "Growth",
+        "is_compatible": true,
+        "warning": null,
+        "citations": {
+          "current": {
+            "page_no": 3,
+            "table_id": "tbl_p3_1",
+            "row_index": 4,
+            "col_index": 2,
+            "row_label": "Inventories",
+            "column_header": "FY 2024-25"
+          },
+          "prior": {
+            "page_no": 3,
+            "table_id": "tbl_p3_1",
+            "row_index": 4,
+            "col_index": 3,
+            "row_label": "Inventories",
+            "column_header": "FY 2023-24"
+          }
+        }
+      },
+      {
+        "metric_code": "investing_cash_flow",
+        "label": "Net cash used in investing activities",
+        "statement_type": "cash_flow",
+        "current_period": "FY 2024-25",
+        "current_value": -1420.0,
+        "prior_period": "FY 2023-24",
+        "prior_value": -1150.0,
+        "currency": "INR",
+        "scale": "crores",
+        "absolute_change": -270.0,
+        "percentage_change": -23.48,
+        "trend_direction": "Decline",
+        "is_compatible": true,
+        "warning": null,
+        "citations": {
+          "current": {
+            "page_no": 4,
+            "table_id": "tbl_p4_1",
+            "row_index": 2,
+            "col_index": 2,
+            "row_label": "Net cash used in investing activities",
+            "column_header": "FY 2024-25"
+          },
+          "prior": {
+            "page_no": 4,
+            "table_id": "tbl_p4_1",
+            "row_index": 2,
+            "col_index": 3,
+            "row_label": "Net cash used in investing activities",
+            "column_header": "FY 2023-24"
+          }
+        }
+      },
+      {
+        "metric_code": "long_term_debt",
+        "label": "Long-term borrowings",
+        "statement_type": "balance_sheet",
+        "current_period": "FY 2024-25",
+        "current_value": 2200.0,
+        "prior_period": "FY 2023-24",
+        "prior_value": 1900.0,
+        "currency": "INR",
+        "scale": "crores",
+        "absolute_change": 300.0,
+        "percentage_change": 15.79,
+        "trend_direction": "Growth",
+        "is_compatible": true,
+        "warning": null,
+        "citations": {
+          "current": {
+            "page_no": 3,
+            "table_id": "tbl_p3_1",
+            "row_index": 10,
+            "col_index": 2,
+            "row_label": "Long-term borrowings",
+            "column_header": "FY 2024-25"
+          },
+          "prior": {
+            "page_no": 3,
+            "table_id": "tbl_p3_1",
+            "row_index": 10,
+            "col_index": 3,
+            "row_label": "Long-term borrowings",
+            "column_header": "FY 2023-24"
+          }
+        }
+      },
+      {
+        "metric_code": "net_change_in_cash",
+        "label": "Net change in cash",
+        "statement_type": "cash_flow",
+        "current_period": "FY 2024-25",
+        "current_value": 330.0,
+        "prior_period": "FY 2023-24",
+        "prior_value": 240.0,
+        "currency": "INR",
+        "scale": "crores",
+        "absolute_change": 90.0,
+        "percentage_change": 37.5,
+        "trend_direction": "Growth",
+        "is_compatible": true,
+        "warning": null,
+        "citations": {
+          "current": {
+            "page_no": 4,
+            "table_id": "tbl_p4_1",
+            "row_index": 5,
+            "col_index": 2,
+            "row_label": "Net change in cash",
+            "column_header": "FY 2024-25"
+          },
+          "prior": {
+            "page_no": 4,
+            "table_id": "tbl_p4_1",
+            "row_index": 5,
+            "col_index": 3,
+            "row_label": "Net change in cash",
+            "column_header": "FY 2023-24"
+          }
+        }
+      },
+      {
+        "metric_code": "net_profit",
+        "label": "Net Profit for the year",
+        "statement_type": "income_statement",
+        "current_period": "FY 2024-25",
+        "current_value": 2420.0,
+        "prior_period": "FY 2023-24",
+        "prior_value": 1860.0,
+        "currency": "INR",
+        "scale": "crores",
+        "absolute_change": 560.0,
+        "percentage_change": 30.11,
+        "trend_direction": "Growth",
+        "is_compatible": true,
+        "warning": null,
+        "citations": {
+          "current": {
+            "page_no": 2,
+            "table_id": "tbl_p2_1",
+            "row_index": 12,
+            "col_index": 2,
+            "row_label": "Net Profit for the year",
+            "column_header": "FY 2024-25"
+          },
+          "prior": {
+            "page_no": 2,
+            "table_id": "tbl_p2_1",
+            "row_index": 12,
+            "col_index": 3,
+            "row_label": "Net Profit for the year",
+            "column_header": "FY 2023-24"
+          }
+        }
+      },
+      {
+        "metric_code": "operating_cash_flow",
+        "label": "Operating cash flow (CFO)",
+        "statement_type": "cash_flow",
+        "current_period": "FY 2024-25",
+        "current_value": 2850.0,
+        "prior_period": "FY 2023-24",
+        "prior_value": 2310.0,
+        "currency": "INR",
+        "scale": "crores",
+        "absolute_change": 540.0,
+        "percentage_change": 23.38,
+        "trend_direction": "Growth",
+        "is_compatible": true,
+        "warning": null,
+        "citations": {
+          "current": {
+            "page_no": 4,
+            "table_id": "tbl_p4_1",
+            "row_index": 1,
+            "col_index": 2,
+            "row_label": "Operating cash flow (CFO)",
+            "column_header": "FY 2024-25"
+          },
+          "prior": {
+            "page_no": 4,
+            "table_id": "tbl_p4_1",
+            "row_index": 1,
+            "col_index": 3,
+            "row_label": "Operating cash flow (CFO)",
+            "column_header": "FY 2023-24"
+          }
+        }
+      },
+      {
+        "metric_code": "operating_expenses",
+        "label": "Operating Expenses",
+        "statement_type": "income_statement",
+        "current_period": "FY 2024-25",
+        "current_value": 2600.0,
+        "prior_period": "FY 2023-24",
+        "prior_value": 2200.0,
+        "currency": "INR",
+        "scale": "crores",
+        "absolute_change": 400.0,
+        "percentage_change": 18.18,
+        "trend_direction": "Growth",
+        "is_compatible": true,
+        "warning": null,
+        "citations": {
+          "current": {
+            "page_no": 2,
+            "table_id": "tbl_p2_1",
+            "row_index": 6,
+            "col_index": 2,
+            "row_label": "Operating Expenses",
+            "column_header": "FY 2024-25"
+          },
+          "prior": {
+            "page_no": 2,
+            "table_id": "tbl_p2_1",
+            "row_index": 6,
+            "col_index": 3,
+            "row_label": "Operating Expenses",
+            "column_header": "FY 2023-24"
+          }
+        }
+      },
+      {
+        "metric_code": "revenue",
+        "label": "Total Revenue",
+        "statement_type": "income_statement",
+        "current_period": "FY 2024-25",
+        "current_value": 14920.0,
+        "prior_period": "FY 2023-24",
+        "prior_value": 12550.0,
+        "currency": "INR",
+        "scale": "crores",
+        "absolute_change": 2370.0,
+        "percentage_change": 18.88,
+        "trend_direction": "Growth",
+        "is_compatible": true,
+        "warning": null,
+        "citations": {
+          "current": {
+            "page_no": 2,
+            "table_id": "tbl_p2_1",
+            "row_index": 3,
+            "col_index": 2,
+            "row_label": "Total Revenue",
+            "column_header": "FY 2024-25"
+          },
+          "prior": {
+            "page_no": 2,
+            "table_id": "tbl_p2_1",
+            "row_index": 3,
+            "col_index": 3,
+            "row_label": "Total Revenue",
+            "column_header": "FY 2023-24"
+          }
+        }
+      },
+      {
+        "metric_code": "short_term_debt",
+        "label": "Short-term borrowings",
+        "statement_type": "balance_sheet",
+        "current_period": "FY 2024-25",
+        "current_value": 1100.0,
+        "prior_period": "FY 2023-24",
+        "prior_value": 950.0,
+        "currency": "INR",
+        "scale": "crores",
+        "absolute_change": 150.0,
+        "percentage_change": 15.79,
+        "trend_direction": "Growth",
+        "is_compatible": true,
+        "warning": null,
+        "citations": {
+          "current": {
+            "page_no": 3,
+            "table_id": "tbl_p3_1",
+            "row_index": 8,
+            "col_index": 2,
+            "row_label": "Short-term borrowings",
+            "column_header": "FY 2024-25"
+          },
+          "prior": {
+            "page_no": 3,
+            "table_id": "tbl_p3_1",
+            "row_index": 8,
+            "col_index": 3,
+            "row_label": "Short-term borrowings",
+            "column_header": "FY 2023-24"
+          }
+        }
+      },
+      {
+        "metric_code": "tax_expense",
+        "label": "Tax expense",
+        "statement_type": "income_statement",
+        "current_period": "FY 2024-25",
+        "current_value": 780.0,
+        "prior_period": "FY 2023-24",
+        "prior_value": 600.0,
+        "currency": "INR",
+        "scale": "crores",
+        "absolute_change": 180.0,
+        "percentage_change": 30.0,
+        "trend_direction": "Growth",
+        "is_compatible": true,
+        "warning": null,
+        "citations": {
+          "current": {
+            "page_no": 2,
+            "table_id": "tbl_p2_1",
+            "row_index": 11,
+            "col_index": 2,
+            "row_label": "Tax expense",
+            "column_header": "FY 2024-25"
+          },
+          "prior": {
+            "page_no": 2,
+            "table_id": "tbl_p2_1",
+            "row_index": 11,
+            "col_index": 3,
+            "row_label": "Tax expense",
+            "column_header": "FY 2023-24"
+          }
+        }
+      },
+      {
+        "metric_code": "total_assets",
+        "label": "Total Assets",
+        "statement_type": "balance_sheet",
+        "current_period": "FY 2024-25",
+        "current_value": 20500.0,
+        "prior_period": "FY 2023-24",
+        "prior_value": 17600.0,
+        "currency": "INR",
+        "scale": "crores",
+        "absolute_change": 2900.0,
+        "percentage_change": 16.48,
+        "trend_direction": "Growth",
+        "is_compatible": true,
+        "warning": null,
+        "citations": {
+          "current": {
+            "page_no": 3,
+            "table_id": "tbl_p3_1",
+            "row_index": 6,
+            "col_index": 2,
+            "row_label": "Total Assets",
+            "column_header": "FY 2024-25"
+          },
+          "prior": {
+            "page_no": 3,
+            "table_id": "tbl_p3_1",
+            "row_index": 6,
+            "col_index": 3,
+            "row_label": "Total Assets",
+            "column_header": "FY 2023-24"
+          }
+        }
+      },
+      {
+        "metric_code": "total_debt",
+        "label": "Total Borrowings (Debt)",
+        "statement_type": "balance_sheet",
+        "current_period": "FY 2024-25",
+        "current_value": 3300.0,
+        "prior_period": "FY 2023-24",
+        "prior_value": 2850.0,
+        "currency": "INR",
+        "scale": "crores",
+        "absolute_change": 450.0,
+        "percentage_change": 15.79,
+        "trend_direction": "Growth",
+        "is_compatible": true,
+        "warning": null,
+        "citations": {
+          "current": {
+            "page_no": 3,
+            "table_id": "tbl_p3_1",
+            "row_index": 11,
+            "col_index": 2,
+            "row_label": "Total Borrowings (Debt)",
+            "column_header": "FY 2024-25"
+          },
+          "prior": {
+            "page_no": 3,
+            "table_id": "tbl_p3_1",
+            "row_index": 11,
+            "col_index": 3,
+            "row_label": "Total Borrowings (Debt)",
+            "column_header": "FY 2023-24"
+          }
+        }
+      },
+      {
+        "metric_code": "total_equity",
+        "label": "Shareholders' Equity",
+        "statement_type": "balance_sheet",
+        "current_period": "FY 2024-25",
+        "current_value": 12000.0,
+        "prior_period": "FY 2023-24",
+        "prior_value": 10300.0,
+        "currency": "INR",
+        "scale": "crores",
+        "absolute_change": 1700.0,
+        "percentage_change": 16.5,
+        "trend_direction": "Growth",
+        "is_compatible": true,
+        "warning": null,
+        "citations": {
+          "current": {
+            "page_no": 3,
+            "table_id": "tbl_p3_1",
+            "row_index": 13,
+            "col_index": 2,
+            "row_label": "Shareholders' Equity",
+            "column_header": "FY 2024-25"
+          },
+          "prior": {
+            "page_no": 3,
+            "table_id": "tbl_p3_1",
+            "row_index": 13,
+            "col_index": 3,
+            "row_label": "Shareholders' Equity",
+            "column_header": "FY 2023-24"
+          }
+        }
+      },
+      {
+        "metric_code": "total_liabilities",
+        "label": "Total Liabilities",
+        "statement_type": "balance_sheet",
+        "current_period": "FY 2024-25",
+        "current_value": 8500.0,
+        "prior_period": "FY 2023-24",
+        "prior_value": 7300.0,
+        "currency": "INR",
+        "scale": "crores",
+        "absolute_change": 1200.0,
+        "percentage_change": 16.44,
+        "trend_direction": "Growth",
+        "is_compatible": true,
+        "warning": null,
+        "citations": {
+          "current": {
+            "page_no": 3,
+            "table_id": "tbl_p3_1",
+            "row_index": 12,
+            "col_index": 2,
+            "row_label": "Total Liabilities",
+            "column_header": "FY 2024-25"
+          },
+          "prior": {
+            "page_no": 3,
+            "table_id": "tbl_p3_1",
+            "row_index": 12,
+            "col_index": 3,
+            "row_label": "Total Liabilities",
+            "column_header": "FY 2023-24"
+          }
+        }
+      },
+      {
+        "metric_code": "total_liabilities_and_equity",
+        "label": "Total Liabilities & Equity",
+        "statement_type": "balance_sheet",
+        "current_period": "FY 2024-25",
+        "current_value": 20500.0,
+        "prior_period": "FY 2023-24",
+        "prior_value": 17600.0,
+        "currency": "INR",
+        "scale": "crores",
+        "absolute_change": 2900.0,
+        "percentage_change": 16.48,
+        "trend_direction": "Growth",
+        "is_compatible": true,
+        "warning": null,
+        "citations": {
+          "current": {
+            "page_no": 3,
+            "table_id": "tbl_p3_1",
+            "row_index": 14,
+            "col_index": 2,
+            "row_label": "Total Liabilities & Equity",
+            "column_header": "FY 2024-25"
+          },
+          "prior": {
+            "page_no": 3,
+            "table_id": "tbl_p3_1",
+            "row_index": 14,
+            "col_index": 3,
+            "row_label": "Total Liabilities & Equity",
+            "column_header": "FY 2023-24"
+          }
+        }
+      }
+    ]
+  },
+  "risks": {
+    "total_risk_flags": 1,
+    "severity_counts": {
+      "high": 0,
+      "medium": 0,
+      "low": 1
+    },
+    "overall_risk_profile": "Low / Stable Risk",
+    "disclaimer": "All risk indicators are algorithmic screening signals intended for analyst review, not definitive declarations of fraud, default, or audit qualifications.",
+    "flags": [
+      {
+        "id": "HEALTH_01",
+        "title": "Stable Financial Screening Profile",
+        "category": "General",
+        "severity": "LOW",
+        "indicator_value": "Optimal",
+        "description": "Standard screening criteria for liquidity, leverage, and statement balancing met without severe anomalies.",
+        "evidence": [],
+        "caveat": "Automated screening covers standard financial metrics only; thorough qualitative analysis is recommended.",
+        "analyst_action": "Proceed with regular valuation and governance assessment."
+      }
+    ]
+  },
+  "summary": {
+    "entity": "Apex Global Technologies Ltd",
+    "period": "FY 2024-25",
+    "currency": "INR",
+    "scale": "crores",
+    "generated_mode": "Grounded Financial Synthesis Engine",
+    "executive_summary": "Apex Global Technologies Ltd reported total revenue of INR 14920.0 crores (representing a 18.88% change over the previous period) for FY 2024-25. The business generated a net profit of INR 2420.0 crores, translating to a net profit margin of 16.69%. Overall operational performance demonstrates underlying resilience across key reporting segments.",
+    "profitability_overview": "Gross margin reached 43.45%, reflecting pricing power and input cost management. Operating margin (EBIT) stood at 25.52%, showing operational overhead discipline. Net profit margin was recorded at 16.69%. Return on Equity (ROE) achieved 20.17%, representing shareholder capital productivity.",
+    "liquidity_and_leverage": "Liquidity is supported by a Current Ratio of 1.85x (Healthy). Capital structure solvency exhibits a Debt-to-Equity ratio of 0.28x (Healthy). Total debt obligations are reported at INR 3300.0 crores.",
+    "cash_flow_analysis": "The business generated INR 2850.0 crores from operating activities. Operating cash flow conversion ratio was 1.18x relative to net income.",
+    "risk_synopsis": "Screening flagged 0 High-priority and 0 Medium-priority indicators for analyst review. Review of relevant footnote notes and management discussions is advised.",
+    "evidence_citations": [
+      {
+        "metric": "revenue",
+        "raw_label": "Revenue from operations",
+        "value": "INR 14,500.00 crores",
+        "page_no": 2,
+        "table_id": "tbl_p2_1"
+      },
+      {
+        "metric": "revenue",
+        "raw_label": "Revenue from operations",
+        "value": "INR 12,200.00 crores",
+        "page_no": 2,
+        "table_id": "tbl_p2_1"
+      },
+      {
+        "metric": "revenue",
+        "raw_label": "Total Revenue",
+        "value": "INR 14,920.00 crores",
+        "page_no": 2,
+        "table_id": "tbl_p2_1"
+      },
+      {
+        "metric": "revenue",
+        "raw_label": "Total Revenue",
+        "value": "INR 12,550.00 crores",
+        "page_no": 2,
+        "table_id": "tbl_p2_1"
+      },
+      {
+        "metric": "net_profit",
+        "raw_label": "Net Profit for the year",
+        "value": "INR 2,420.00 crores",
+        "page_no": 2,
+        "table_id": "tbl_p2_1"
+      },
+      {
+        "metric": "net_profit",
+        "raw_label": "Net Profit for the year",
+        "value": "INR 1,860.00 crores",
+        "page_no": 2,
+        "table_id": "tbl_p2_1"
+      },
+      {
+        "metric": "total_assets",
+        "raw_label": "Total Assets",
+        "value": "INR 20,500.00 crores",
+        "page_no": 3,
+        "table_id": "tbl_p3_1"
+      },
+      {
+        "metric": "total_assets",
+        "raw_label": "Total Assets",
+        "value": "INR 17,600.00 crores",
+        "page_no": 3,
+        "table_id": "tbl_p3_1"
+      },
+      {
+        "metric": "total_debt",
+        "raw_label": "Total Borrowings (Debt)",
+        "value": "INR 3,300.00 crores",
+        "page_no": 3,
+        "table_id": "tbl_p3_1"
+      },
+      {
+        "metric": "total_debt",
+        "raw_label": "Total Borrowings (Debt)",
+        "value": "INR 2,850.00 crores",
+        "page_no": 3,
+        "table_id": "tbl_p3_1"
+      },
+      {
+        "metric": "operating_cash_flow",
+        "raw_label": "Operating cash flow (CFO)",
+        "value": "INR 2,850.00 crores",
+        "page_no": 4,
+        "table_id": "tbl_p4_1"
+      },
+      {
+        "metric": "operating_cash_flow",
+        "raw_label": "Operating cash flow (CFO)",
+        "value": "INR 2,310.00 crores",
+        "page_no": 4,
+        "table_id": "tbl_p4_1"
+      }
+    ],
+    "disclaimer": "This summary is generated for decision support and analytical review. It relies on extracted data from the provided document and does not constitute statutory audit or investment advice."
+  }
+}
