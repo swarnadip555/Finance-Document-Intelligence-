@@ -93,5 +93,43 @@
     "is_scanned": false,
     "error_message": null,
     "scanned_pages_count": 0
+  },
+  "4ebe42e3": {
+    "id": "4ebe42e3",
+    "filename": "Testing report.pdf",
+    "stored_filename": "4ebe42e3_Testing report.pdf",
+    "file_path": "D:\\Financial Document Intelligence Tool\\data\\uploads\\4ebe42e3_Testing report.pdf",
+    "file_size": 60413,
+    "entity": "Zenith",
+    "document_type": "Annual Report",
+    "period": "FY 2024-25",
+    "currency": "INR",
+    "scale": "units",
+    "status": "processed",
+    "created_at": "2026-11-20T04:18:03.972306",
+    "uploaded_by": "analyst",
+    "page_count": 20,
+    "is_scanned": false,
+    "error_message": null,
+    "scanned_pages_count": 0
+  },
+  "977fff3a": {
+    "id": "977fff3a",
+    "filename": "Testing report.pdf",
+    "stored_filename": "977fff3a_Testing report.pdf",
+    "file_path": "D:\\Financial Document Intelligence Tool\\data\\uploads\\977fff3a_Testing report.pdf",
+    "file_size": 60413,
+    "entity": "Testing",
+    "document_type": "Annual Report",
+    "period": "FY 2025-26",
+    "currency": "INR",
+    "scale": "units",
+    "status": "processed",
+    "created_at": "2026-11-20T04:19:33.985786",
+    "uploaded_by": "analyst",
+    "page_count": 20,
+    "is_scanned": false,
+    "error_message": null,
+    "scanned_pages_count": 0
   }
 }
